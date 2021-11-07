@@ -195,7 +195,7 @@
 ```
 
 ## TIL정리 (Blog)
-- 김태우 :
+- 김태우 : https://velog.io/@burnkim61/프리온보딩-과제-1
 - 고유영 :
 - 박지원 : https://yesjiwon5304.tistory.com/33
 
