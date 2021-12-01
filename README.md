@@ -1,9 +1,16 @@
-# Asignment1-TW-JW-YY
+# wcode-wanted-Assignment1-aimmo
 원티드x위코드 백엔드 프리온보딩 과제1
 - 과제 출제 기업 정보
   - 기업명 : 에이모
   - [에이모 사이트](https://aimmo.co.kr/)
   - [wanted 채용공고 링크](https://www.wanted.co.kr/wd/16937)
+
+
+## 과제 후기
+- https://velog.io/@burnkim61/프리온보딩-과제-1
+
+## 팀 Repository
+- https://github.com/Wanted-Preonboarding-Backend-1st-G5/Assignment1-TW-JW-YY
 
 ## Members
 |이름   |github                   |담당 기능|
@@ -14,6 +21,11 @@
 
 
 ## 과제 내용
+
+<details>
+<summary>과제내용 보기</summary>
+<div markdown="1">
+
 > 아래 요구사항에 맞춰 게시판 Restfull API를 개발합니다.
 - 에이모 선호 기술스택: python flask, mashmallow, mongoengine
 - 필수 사용 데이터베이스: mongodb
@@ -39,6 +51,7 @@
 - Unit Test
 - 1000만건 이상의 데이터를 넣고 성능테스트 진행 결과 필요
 
+  </details>
 
 ## 사용 기술 및 tools
 > - Back-End :  <img src="https://img.shields.io/badge/Python 3.8-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Django 3.2-092E20?style=for-the-badge&logo=Django&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/mongodb 5.0-1b9e41?style=for-the-badge&logo=Mongodb&logoColor=white"/>
@@ -90,6 +103,11 @@
 ![image](https://user-images.githubusercontent.com/8219812/139912241-d6cb5831-23e8-4cbb-a747-f52c42601098.png)
 
 ## 설치 및 실행 방법
+  
+<details>
+<summary>설치 및 실행 방법 자세 보기</summary>
+<div markdown="1">
+  
 ###  Local 개발 및 테스트용
 1. miniconda를 설치한다. ([https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html))
 2. 해당프로젝트를 clone 하고, 프로젝트 폴더로 들어간다.
@@ -147,6 +165,7 @@
     ```bash
     docker-compose -f docker-compose-deploy.yml up -d
     ```
+  </details>
 
 ## 폴더 구조
 ```bash
@@ -193,11 +212,6 @@
     └── views.py
 
 ```
-
-## TIL정리 (Blog)
-- 김태우 : https://velog.io/@burnkim61/프리온보딩-과제-1
-- 고유영 : https://lunayyko.github.io/wecode/2021/11/03/wantedxwecode-1-aimmo/
-- 박지원 : https://yesjiwon5304.tistory.com/33
 
 # Reference
 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 aimmo에서 출제한 과제를 기반으로 만들었습니다.
